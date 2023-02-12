@@ -1,19 +1,17 @@
-import logo from './logo.svg'
 import './App.css'
-import { useEffect } from 'react'
+import Components from './components'
 
-function App() {
-  let a = 0
-  console.log('render 1')
-  useEffect(() => {
-    console.log('render 2')
-  }, [])
-
+export const App = () => {
   return (
-    <div>
-      <button onClick={() => a + 1}>+</button>
-      <p>Counter: {a}</p>
-    </div>
+    <>
+      <Components.useState />
+      <Components.useEffect />
+      <Components.useMemo />
+      <Components.useRef />
+      <Components.useContext />
+      <Components.useReducer />
+      <Components.useCallback />
+    </>
   )
 }
 

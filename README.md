@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Web Dev Simplified react hooks
+
+## About
+
+This is me following Kyle's
+[youtube video](https://youtu.be/O6P86uwfdR0?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h)
+
+Year 2023
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

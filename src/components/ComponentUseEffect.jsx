@@ -15,9 +15,9 @@ export const ComponentUseEffect = () => {
   }
 
   useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/${resource}`)
-      .then(response => response.json())
-      .then(json => setItems(json))
+    // fetch(`https://jsonplaceholder.typicode.com/${resource}`)
+    //   .then(response => response.json())
+    //   .then(json => setItems(json))
   }, [resource])
 
   useEffect(() => {
@@ -35,9 +35,9 @@ export const ComponentUseEffect = () => {
       <button onClick={() => setResource('comments')}>Comments</button>
       <span>{resource}</span>
       {windowWidth}
-      {items.map((item, idx) => {
+      {/* {items.map((item, idx) => {
         return <pre key={item.id}>{JSON.stringify(item)}</pre>
-      })}
+      })} */}
     </Container>
   )
 }
